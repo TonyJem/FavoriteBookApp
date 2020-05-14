@@ -19,6 +19,15 @@ class BookTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+//    MARK: - Methods:
+    func update(with book: Book){
+        titleLabel.text = book.title
+        authorLabel.text = book.author
+        genreLabel.text = book.genre
+        lengthLabel.text = book.length
+    }
+    
 
 //    MARK: - Outlets:
     @IBOutlet var titleLabel: UILabel!
