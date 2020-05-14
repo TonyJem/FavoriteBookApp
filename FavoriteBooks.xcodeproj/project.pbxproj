@@ -14,6 +14,7 @@
 		2C5E3E2C1E514CE500C02C5F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E3E2B1E514CE500C02C5F /* Book.swift */; };
 		2C5E3E301E514D3400C02C5F /* BookFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */; };
 		2C5E3E341E514EA700C02C5F /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */; };
+		3A687865246DCF57002FA9F6 /* BookFormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A687864246DCF57002FA9F6 /* BookFormTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2C5E3E2B1E514CE500C02C5F /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookFormViewController.swift; sourceTree = "<group>"; };
 		2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewController.swift; sourceTree = "<group>"; };
+		3A687864246DCF57002FA9F6 /* BookFormTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFormTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2C5E3E191E514CC400C02C5F /* AppDelegate.swift */,
 				2C5E3E2B1E514CE500C02C5F /* Book.swift */,
 				2C5E3E1D1E514CC400C02C5F /* Main.storyboard */,
+				3A687864246DCF57002FA9F6 /* BookFormTableViewController.swift */,
 				2C5E3E201E514CC400C02C5F /* Assets.xcassets */,
 				2C5E3E221E514CC400C02C5F /* LaunchScreen.storyboard */,
 				2C5E3E251E514CC400C02C5F /* Info.plist */,
@@ -112,6 +115,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -145,6 +149,7 @@
 			files = (
 				2C5E3E341E514EA700C02C5F /* BookTableViewController.swift in Sources */,
 				2C5E3E1A1E514CC400C02C5F /* AppDelegate.swift in Sources */,
+				3A687865246DCF57002FA9F6 /* BookFormTableViewController.swift in Sources */,
 				2C5E3E301E514D3400C02C5F /* BookFormViewController.swift in Sources */,
 				2C5E3E2C1E514CE500C02C5F /* Book.swift in Sources */,
 			);
