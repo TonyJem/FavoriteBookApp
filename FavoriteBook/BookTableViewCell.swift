@@ -7,7 +7,6 @@
 
 import UIKit
 
-/*
 class BookTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
@@ -21,6 +20,10 @@ class BookTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+//    MARK: - Outlets:
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var authorLabel: UILabel!
+    @IBOutlet var genreLabel: UILabel!
+    @IBOutlet var lengthLabel: UILabel!
+    
 }
- 
- */
