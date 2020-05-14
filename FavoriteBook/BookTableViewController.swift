@@ -30,10 +30,12 @@ class BookTableViewController: UITableViewController {
     
     // MARK: - Table view data source
     
+//    Number of Rows in section:
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return books.count
     }
-    
+   
+//    Create Row's content:
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: PropertyKeys.bookCell, for: indexPath)
         
@@ -43,6 +45,21 @@ class BookTableViewController: UITableViewController {
         
         return cell
     }
+    
+//    Enable "delete" button in each Row:
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        return .delete
+    }
+    
+    //    Set action when "delete" button in Row is tapped:
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            books.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
+    
+    
     
     // MARK: - Navigation
     
