@@ -89,6 +89,29 @@ class BookTableViewController: UITableViewController {
     
 }
 
+
+class BookTableViewCell: UITableViewCell {
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+//    MARK: - Outlets:
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var authorLabel: UILabel!
+    @IBOutlet var genreLabel: UILabel!
+    @IBOutlet var lengthLabel: UILabel!
+    
+}
+
+
 //From Cell: EditBook *(Show e.g. Push)
 //From "+": AddBook *(Show e.g. Push)
 

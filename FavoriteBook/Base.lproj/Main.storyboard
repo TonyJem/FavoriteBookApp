@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookCell" rowHeight="71" id="0Ju-jO-9Mf">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookCell" rowHeight="71" id="0Ju-jO-9Mf" customClass="BookTableViewCell" customModule="FavoriteBooks" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="71"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Ju-jO-9Mf" id="rJ3-Xq-LQ2">
@@ -94,6 +94,10 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="authorLabel" destination="S1Q-Hs-yIk" id="81I-R6-wos"/>
+                                    <outlet property="genreLabel" destination="g22-R9-MYS" id="WSK-11-B9L"/>
+                                    <outlet property="lengthLabel" destination="5x8-EI-vyx" id="z0D-cE-31F"/>
+                                    <outlet property="titleLabel" destination="aR4-eR-xl1" id="ZBE-Yl-e8n"/>
                                     <segue destination="5Ne-Wz-aqL" kind="show" identifier="EditBook" id="e9i-fg-pjq"/>
                                 </connections>
                             </tableViewCell>
