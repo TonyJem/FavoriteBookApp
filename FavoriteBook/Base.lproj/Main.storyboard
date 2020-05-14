@@ -258,11 +258,21 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVK-8a-5Ft">
+                                                    <rect key="frame" x="190" y="7" width="34" height="30"/>
+                                                    <state key="normal" title="Save"/>
+                                                    <connections>
+                                                        <action selector="saveButtonTapped:" destination="5Ne-Wz-aqL" eventType="touchUpInside" id="66e-rb-fPN"/>
+                                                        <segue destination="j3Z-gU-Zic" kind="unwind" identifier="UnwindToBookTable" unwindAction="prepareForUnwindWithSegue:" id="9oz-3P-rXc"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="dVK-8a-5Ft" firstAttribute="centerY" secondItem="c6M-ez-cep" secondAttribute="centerY" id="BwV-hC-r6t"/>
                                                 <constraint firstItem="2vY-NR-f8z" firstAttribute="leading" secondItem="c6M-ez-cep" secondAttribute="leading" constant="16" id="EfH-XP-XKi"/>
                                                 <constraint firstItem="2vY-NR-f8z" firstAttribute="top" secondItem="c6M-ez-cep" secondAttribute="top" constant="5" id="JKX-SM-Nq0"/>
                                                 <constraint firstAttribute="trailing" secondItem="2vY-NR-f8z" secondAttribute="trailing" constant="16" id="Oy5-s1-TNz"/>
+                                                <constraint firstItem="dVK-8a-5Ft" firstAttribute="centerX" secondItem="c6M-ez-cep" secondAttribute="centerX" id="ees-5U-tDX"/>
                                                 <constraint firstAttribute="bottom" secondItem="2vY-NR-f8z" secondAttribute="bottom" constant="5" id="h90-EF-ZeL"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -275,8 +285,15 @@
                             <outlet property="delegate" destination="5Ne-Wz-aqL" id="kp5-tU-3Dt"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="authorTextField" destination="zwz-Ep-Lu9" id="KIz-dk-oph"/>
+                        <outlet property="genreTextField" destination="jUN-kL-0aE" id="fHs-Ch-Rn3"/>
+                        <outlet property="lengthTextField" destination="jq5-6B-cXk" id="xaT-B3-dc8"/>
+                        <outlet property="titleTextField" destination="CjI-sO-tqV" id="Uf6-ve-Cvl"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kta-nL-2Z8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="j3Z-gU-Zic" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2562.3188405797105" y="-70.3125"/>
         </scene>
