@@ -18,7 +18,8 @@ class BookTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 71.0
     }
     
     override func viewWillAppear(_ animated: Bool) {
