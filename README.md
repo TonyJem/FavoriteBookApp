@@ -29,7 +29,7 @@ There are two table views used for that app:
 <br>
 <br>
 
-1. The __first Table View__ is a Prototype Table View and initially is an emty table, where User can add an information about his favorite Book.
+1. The __first Table View__ is a Prototype Table View and initially is an emty table, where User can start adding an information about his favorite Books.
 
 <img src="/FavoriteBook-screens/screen01.png" width="20%"> 
 
