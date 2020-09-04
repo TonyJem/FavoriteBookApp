@@ -33,7 +33,7 @@ There are two table views used for that app:
 
 <img src="/FavoriteBook-screens/screen01.png" width="20%"> 
 
-After User has pressed _Add_ button here will be initialized _second Table View_.
+After User has pressed _Add_ button, next will be initialized _second Table View_.
 <br>
 <br>
 
