@@ -13,7 +13,7 @@ Simple iOS App - done as Apple Education Lab task for learning purposes in 2020 
 The objective of this lab is to implement intermediate table view features into an app that keeps track of user's favorite books.
 
 #### This app accomplish three main goals:
-  1. Replace existing form provided source file _FormViewController_ with a static table view”
+  1. Replace existing regular _View Controller_ with a _Static Table View_”
   
   2. Add the capability to delete books from the main list of books.
   
