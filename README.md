@@ -49,7 +49,7 @@ And the last section is for the _Save_ button.
 <br>
 <br>
 
-3. After information about Book is added and _Save_ button was pressed, App will come back to the first screen. Here again will be provided a list with all saved Books including recently saved Book:
+3. After information about Book is added and _Save_ button was pressed, App will come back to the first screen. Here again will be provided a list containing all saved Books with included recently saved Book:
 
 <img src="/FavoriteBook-screens/screen03.png" width="25%">
 
