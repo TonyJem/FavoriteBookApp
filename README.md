@@ -29,18 +29,33 @@ There are two table views used for that app:
 <br>
 <br>
 
-1. The __first Table View__ initially is an emty table where User can add information about his favorite book. Information such as:
-  * Title
+1. The __first Table View__ initially is an emty table where User can add information about his favorite book.
+
+<img src="/FavoriteBook-screens/screen01.png" width="20%"> 
+
+After User has pressed _Add_ button here will be initialized _second Table View_.
+<br>
+<br>
+
+2. The __second Table View__ is a static Table View, where each text field is in its own cell and each cell is in its own section. There are five sections. First four enables User to add such information as:
+  * Book Title
   * Author
   * Genre
   * Length
-<img src="/FavoriteBook-screens/screen01.png" width="20%"> 
-<br>
-<br>
+  
+<img src="/FavoriteBook-screens/screen02.png" width="20%"> <img src="/FavoriteBook-screens/screen03.png" width="20%">
 
-2. The __second view controller__ displays a question and several answers, and manages the responses. This view controller is refreshed for each question, and depending on what kind of question, the right controls will be displayed:
+And the last section is for the _Save_ button.
 
-<img src="/FavoriteBook-screens/screen02.png" width="20%"> <img src="/FavoriteBook-screens/screen03.png" width="20%"> <img src="/FavoriteBook-screens/screen04.png" width="20%">
+
+
+
+
+
+
+
+
+  <img src="/FavoriteBook-screens/screen04.png" width="20%">
 
 Here above:
 
