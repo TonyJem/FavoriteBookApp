@@ -45,11 +45,17 @@ After User has pressed _Add_ button here will be initialized _second Table View_
   
 <img src="/FavoriteBook-screens/screen02.png" width="20%"> <img src="/FavoriteBook-screens/screen04.png" width="20%">
 
-And the last section is for the _Save_ button. After information about Book is added and _Save_ button pressed App is coming back to first screen. And here will be provided a list with all saved Books:
+And the last section is for the _Save_ button.
+<br>
+<br>
+
+3. After information about Book is added and _Save_ button pressed, App is coming back to first screen. Here will be provided a list with all saved Books:
 
 <img src="/FavoriteBook-screens/screen03.png" width="20%">
 
-This list enables User to select and edit existing Book or delete it by sweaping Book's row to the right same way as it common for other iOS Apps
+This list enables User to see all added Books, also select and edit each Book by tapping on it's row. As weel is still possible to add next new book by pressing _Add_ button in top right screen corner.
+
+4. Delete existing Book function coud be enabled by sweaping selected Book's row to the right same way as it common for other iOS Apps:
 <img src="/FavoriteBook-screens/screen05.png" width="20%">
 <br>   
 <br>
