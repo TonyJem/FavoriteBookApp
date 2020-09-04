@@ -29,7 +29,7 @@ There are two table views used for that app:
 <br>
 <br>
 
-1. The __first Table View__ is a Prototype Table View initially is an emty table where User can add information about his favorite book.
+1. The __first Table View__ is a Prototype Table View and initially is an emty table where User can add information about his favorite book.
 
 <img src="/FavoriteBook-screens/screen01.png" width="20%"> 
 
@@ -43,19 +43,19 @@ After User has pressed _Add_ button here will be initialized _second Table View_
   * Genre
   * Length
   
-<img src="/FavoriteBook-screens/screen02.png" width="20%"> <img src="/FavoriteBook-screens/screen03.png" width="20%">
+<img src="/FavoriteBook-screens/screen02.png" width="20%"> <img src="/FavoriteBook-screens/screen04.png" width="20%">
 
-And the last section is for the _Save_ button.
-
-
+And the last section is for the _Save_ button. After ...
 
 
 
 
 
+<img src="/FavoriteBook-screens/screen03.png" width="20%">
 
 
-  <img src="/FavoriteBook-screens/screen04.png" width="20%">
+
+  
 
 Here above:
 
