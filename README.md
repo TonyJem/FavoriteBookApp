@@ -54,8 +54,11 @@ And the last section is for the _Save_ button.
 <img src="/FavoriteBook-screens/screen03.png" width="20%">
 
 This list enables User to see all added Books, also select and edit each Book by tapping on it's row. As weel is still possible to add next new book by pressing _Add_ button in top right screen corner.
+<br>
+<br>
 
 4. Delete existing Book function coud be enabled by sweaping selected Book's row to the right same way as it common for other iOS Apps:
+
 <img src="/FavoriteBook-screens/screen05.png" width="20%">
 <br>   
 <br>
