@@ -1,5 +1,5 @@
 # FavoriteBook
-Simple iOS App - done as Apple Education Lab task for learning purposes in 2020 May
+Simple iOS App - done as training task from Apple Education Lab for learning purposes in 2020 May
 
 [Description](#description)
 
