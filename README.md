@@ -10,14 +10,14 @@ Simple iOS App - done as training task from Apple Education Lab for learning pur
 [References](#references)
 
 ## Description:
-The objective of this lab is to implement _Intermediate Table View_ features into an App that keeps track of user's favorite books.
+The objective of this lab is to implement _Intermediate Table View_ features into an App that keeps track of user's favorite Books.
 
 #### This app accomplish three main goals:
   1. Replace existing regular _View Controller_ with a _Static Table View_”
   
-  2. Add the capability to delete books from the main list of books.
+  2. Add the capability to delete Books from the main list.
   
-  3. Create a custom table view cell to better display the details of each book in the main list.
+  3. Create a custom table view cell to better display the details of each Book in the main list.
 <br>
 <br>
 <br>
@@ -29,7 +29,7 @@ There are two table views used for that app:
 <br>
 <br>
 
-1. The __first Table View__ is a Prototype Table View and initially is an emty table where User can add information about his favorite book.
+1. The __first Table View__ is a Prototype Table View and initially is an emty table, where User can add an information about his favorite Book.
 
 <img src="/FavoriteBook-screens/screen01.png" width="20%"> 
 
@@ -45,31 +45,11 @@ After User has pressed _Add_ button here will be initialized _second Table View_
   
 <img src="/FavoriteBook-screens/screen02.png" width="20%"> <img src="/FavoriteBook-screens/screen04.png" width="20%">
 
-And the last section is for the _Save_ button. After ...
-
-
-
-
+And the last section is for the _Save_ button. After information about Book is added and _Save_ button pressed App is coming back to first screen. And here will be provided a list with all saved Books:
 
 <img src="/FavoriteBook-screens/screen03.png" width="20%">
 
-
-
-  
-
-Here above:
-
-   __Question #1__ is a multiple-choice question, where only one answer is valid.
-    For this question, here is used a button for each food.
-   
-   __Question #2__ can have zero or more answers. Here are used switches, so players can select as many foods as they like, as well as a button to submit their choices.
-   
-   __Question #3__ involves a 0-to-1 scale slider for choosing answer and button to submit that answer.
-<br>   
-<br>
-
-3. The __third view controller__ tallies up the answers and presents the final outcome. This result can be dismissed, allowing another player to start the Quiz from the first view controller:
-
+This list enables User to select and edit existing Book or delete it by sweaping Book's row to the right same way as it common for other iOS Apps
 <img src="/FavoriteBook-screens/screen05.png" width="20%">
 <br>   
 <br>
