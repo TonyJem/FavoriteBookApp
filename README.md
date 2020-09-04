@@ -29,7 +29,7 @@ There are two table views used for that app:
 <br>
 <br>
 
-1. The __first Table View__ initially is an emty table where User can add information about his favorite book.
+1. The __first Table View__ is a Prototype Table View initially is an emty table where User can add information about his favorite book.
 
 <img src="/FavoriteBook-screens/screen01.png" width="20%"> 
 
@@ -37,7 +37,7 @@ After User has pressed _Add_ button here will be initialized _second Table View_
 <br>
 <br>
 
-2. The __second Table View__ is a static Table View, where each text field is in its own cell and each cell is in its own section. There are five sections. First four enables User to add such information as:
+2. The __second Table View__ is a Static Table View, where each text field is in its own cell and each cell is in its own section. There are five sections. First four enables User to add such information as:
   * Book Title
   * Author
   * Genre
