@@ -1,5 +1,5 @@
 # FavoriteBook
-Simple iOS App - done as lab task for learning purposes in 2020 May
+Simple iOS App - done as Apple Education Lab task for learning purposes in 2020 May
 
 [Description](#description)
 
@@ -12,35 +12,35 @@ Simple iOS App - done as lab task for learning purposes in 2020 May
 ## Description:
 The objective of this lab is to implement intermediate table view features into an app that keeps track of user's favorite books.
 
-#### This app accomplish four main goals:
-  1. Create a static table view.
+#### This app accomplish three main goals:
+  1. Replace existing form provided source file _FormViewController_ with a static table view”
   
-  2. Replace existing FormViewController with FormTableViewController.
+  2. Add the capability to delete books from the main list of books.
   
-  3. Enable option to remove a book from the list.
-  
-  4. Create a custom book Cell.
-
+  3. Create a custom table view cell to better display the details of each book in the main list.
 <br>
 <br>
 <br>
   
 ## Implementation: 
-There are three view controllers used for that app:
+There are two table views used for that app:
 
 <img src="/FavoriteBook-screens/tableViews.png" width="90%">
 <br>
 <br>
 
-1. The __first view controller__ is an introduction screen with information about the Quiz and a button to begin:
-
-<img src="/FavoriteBook-screens/screen01.png" width="20%">
+1. The __first Table View__ initially is an emty table where User can add information about his favorite book. Information such as:
+  * Title
+  * Author
+  * Genre
+  * Length
+<img src="/FavoriteBook-screens/screen01.png" width="20%"> 
 <br>
 <br>
 
 2. The __second view controller__ displays a question and several answers, and manages the responses. This view controller is refreshed for each question, and depending on what kind of question, the right controls will be displayed:
 
-<img src="/FavoriteBook-screens/screen02.png" width="20%">  <img src="/FavoriteBook-screens/screen03.png" width="20%"> <img src="/FavoriteBook-screens/screen04.png" width="20%">
+<img src="/FavoriteBook-screens/screen02.png" width="20%"> <img src="/FavoriteBook-screens/screen03.png" width="20%"> <img src="/FavoriteBook-screens/screen04.png" width="20%">
 
 Here above:
 
@@ -71,7 +71,13 @@ __BookTableViewController.swift__ maintains _First View Controler_ and holds min
 
 __BookTableViewCell.swift__ maintains _Second View Controler_ and holds main part of app functionality. Here is included an array with _Question_ objects, that enables to store quiz questions with answers options as well as logic to display Questions with the Right Controls embed in different Stack Views respectively. 
 
-__BookFormTableViewController.swift__ maintains _Third View Controler_ and receives data from previuose View Controller. Here is implemented final logic calculating answer frequency and presenting the final outcome of the Quiz.
+__BookFormTableViewController.swift__ is _Cocoa Touch Class_ file
+
+
+
+
+
+maintains _Third View Controler_ and receives data from previuose View Controller. Here is implemented final logic calculating answer frequency and presenting the final outcome of the Quiz.
 <br>
 <br>
 <br>
