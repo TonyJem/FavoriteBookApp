@@ -29,7 +29,7 @@ There are two table views used for that app:
 <br>
 <br>
 
-1. The __first Table View__ is a Prototype Table View and initially is an emty table, where User can start adding an information about his favorite Books.
+1. The __first Table View__ is a Prototype Table View and initially is an empty table, where User can start adding an information about his favorite Books.
 
 <img src="/FavoriteBook-screens/screen01.png" width="20%"> 
 
@@ -49,15 +49,15 @@ And the last section is for the _Save_ button.
 <br>
 <br>
 
-3. After information about Book is added and _Save_ button pressed, App is coming back to first screen. Here will be provided a list with all saved Books:
+3. After information about Book is added and _Save_ button was pressed, App will come back to the first screen. Here again will be provided a list with all saved Books including recently saved Book:
 
 <img src="/FavoriteBook-screens/screen03.png" width="20%">
 
-This list enables User to see all added Books, also select and edit each Book by tapping on it's row. As weel is still possible to add next new book by pressing _Add_ button in top right screen corner.
+This list enables User to see all added Books, also select and edit each Book by tapping on it's row. As well, is still possible to add next new Book by pressing _Add_ button in top-right screen corner.
 <br>
 <br>
 
-4. Delete existing Book function coud be enabled by sweaping selected Book's row to the right same way as it common for other iOS Apps:
+4. Delete existing Book function coud be enabled by sweaping selected Book's row from the right to the left, same common way as for other wellknown iOS Apps:
 
 <img src="/FavoriteBook-screens/screen05.png" width="20%">
 <br>   
