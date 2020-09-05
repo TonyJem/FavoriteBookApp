@@ -57,7 +57,7 @@ This list enables User to see all added Books, also select and edit each Book by
 <br>
 <br>
 
-4. Delete existing Book function coud be enabled by sweaping selected Book's row from the right to the left, same common way as for other wellknown iOS Apps:
+4. Delete existing Book function could be enabled by sweaping selected Book's row from the right to the left as same common way as for other wellknown iOS Apps:
 
 <img src="/FavoriteBook-screens/screen05.png" width="25%">
 <br>   
