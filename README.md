@@ -27,7 +27,6 @@ There are two table views used for that app:
 
 <img src="/FavoriteBook-screens/tableViews.png" width="90%">
 <br>
-<br>
 
 1. The __first Table View__ is a Prototype Table View and initially is an empty table, where User can start adding an information about his favorite Books.
 
