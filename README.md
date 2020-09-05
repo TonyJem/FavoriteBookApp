@@ -15,9 +15,9 @@ The objective of this lab is to implement _Intermediate Table View_ features int
 #### This app accomplish three main goals:
   1. Replace existing regular _View Controller_ with a _Static Table View_”
   
-  2. Add the capability to delete Books from the main list.
+  2. Create a custom table view cell to display the details of each Book in the main list.
   
-  3. Create a custom table view cell to display the details of each Book in the main list.
+  3. Add the capability to delete Books from the main list.
 <br>
 <br>
 <br>
