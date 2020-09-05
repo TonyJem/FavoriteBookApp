@@ -17,7 +17,7 @@ The objective of this lab is to implement _Intermediate Table View_ features int
   
   2. Add the capability to delete Books from the main list.
   
-  3. Create a custom table view cell to better display the details of each Book in the main list.
+  3. Create a custom table view cell to display the details of each Book in the main list.
 <br>
 <br>
 <br>
