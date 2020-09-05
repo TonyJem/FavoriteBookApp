@@ -5,8 +5,6 @@ Simple iOS App - done as training task from Apple Education Lab for learning pur
 
 [Implementation](#implementation)
 
-[About Code](#about-code)
-
 [References](#references)
 
 ## Description:
@@ -60,28 +58,6 @@ This list enables User to see all added Books, also select and edit each Book by
 
 <img src="/FavoriteBook-screens/screen05.png" width="25%">
 <br>   
-<br>
-<br>
-
-## About Code:
-FavoriteBook app's project consits of standart Xcode for single view app generated files + other four mannually created _.swift_ files named: _Book_, _BookTableViewController_, _BookTableViewCell_, _BookFormTableViewController_. 
-
-<img src="/FavoriteBook-screens/code-files.png" width="25%">
-
-__Book.swift__ is like a house for model definitions, includes structures that hold the question data. This file used to define all the structures necessary for Personality Quiz.
-
-__BookTableViewController.swift__ maintains _First View Controler_ and holds minimally needed logic neccesary to launch Quiz and move next forward throught app's screens. 
-
-__BookTableViewCell.swift__ maintains _Second View Controler_ and holds main part of app functionality. Here is included an array with _Question_ objects, that enables to store quiz questions with answers options as well as logic to display Questions with the Right Controls embed in different Stack Views respectively. 
-
-__BookFormTableViewController.swift__ is _Cocoa Touch Class_ file
-
-
-
-
-
-maintains _Third View Controler_ and receives data from previuose View Controller. Here is implemented final logic calculating answer frequency and presenting the final outcome of the Quiz.
-<br>
 <br>
 <br>
 
