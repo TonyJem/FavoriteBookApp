@@ -42,7 +42,7 @@ After User has pressed _Add_ button, next will be initialized _second Table View
   
 <img src="/FavoriteBook-screens/screen02.png" width="25%"> <img src="/FavoriteBook-screens/screen04.png" width="25%">
 
-And the last section is for the _Save_ button.
+And the last, but not least, section is for the _Save_ button.
 <br>
 <br>
 
